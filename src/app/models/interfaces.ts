@@ -1,11 +1,11 @@
 export interface newDate {
-    geYear: number;
-    geMonth: number;
-    geDay: number;
+    gy: number;
+    gm: number;
+    gd: number;
     afterSunset: boolean;
-    heYear: number;
-    heMonth: string;
-    heDay: number;
+    hy: number;
+    hm: string;
+    hd: number;
     hebrew: string;
     events: any;
 }
